@@ -2,13 +2,23 @@
 
 Through hole mechanical keyboard with only 40 swithces
 
-# IMAGES
+# Images
 
 ![front](https://raw.githubusercontent.com/CityRunner/shifr/main/img/front.png?raw=true)
 
 ![back](https://raw.githubusercontent.com/CityRunner/shifr/main/img/back.png?raw=true)
 
-# BOM
+# Layout
+Default layout is Colemak-DH.
+
+# Firmware
+1. Download and unpack "firmware.zip".
+2. Double-tap the Reset button on the keyboard.
+3. Copy "shifr-nice_nano_v2-zmk.uf2" onto the root directory of the USB storage that appears.
+4. The controller should flash the firmware and automatically restart once flashing is complete.
+
+
+# Bill of materials
 | Value | Designator | Footprint | Quantity |
 |---|---|---|---|
 | Battery | BT1 | JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal | 1 |
