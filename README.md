@@ -11,6 +11,8 @@ Through hole mechanical keyboard with only 40 swithces
 # Layout
 Default layout is Colemak-DH.
 
+![layout](https://raw.githubusercontent.com/CityRunner/shifr/main/img/layout.png?raw=true)
+
 # Firmware
 1. Download and unpack "firmware.zip".
 2. Double-tap the Reset button on the keyboard.
