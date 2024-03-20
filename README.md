@@ -1,26 +1,22 @@
-# SHIFR
+# Shifr Keyboard
 
-Through hole mechanical keyboard with only 40 swithces
+Shifr (ШИФР) is a compact wireless mechanical keyboard featuring only 40 switches.
+
+The exclusive use of through-hole components simplifies assembly and contributes to its rugged DIY aesthetic.
 
 # Images
+| Front                                      | Back                                      |
+|--------------------------------------------|-------------------------------------------|
+| ![front](https://raw.githubusercontent.com/CityRunner/shifr/main/img/front.png?raw=true) | ![back](https://raw.githubusercontent.com/CityRunner/shifr/main/img/back.png?raw=true) |
 
-![front](https://raw.githubusercontent.com/CityRunner/shifr/main/img/front.png?raw=true)
-
-![back](https://raw.githubusercontent.com/CityRunner/shifr/main/img/back.png?raw=true)
 
 # Layout
-Default layout is Colemak-DH.
-
+Default layout is Colemak-DH with homerow mods.
 ![layout](https://raw.githubusercontent.com/CityRunner/shifr/main/img/layout.png?raw=true)
 
-# Firmware
-1. Download and unpack "firmware.zip".
-2. Double-tap the Reset button on the keyboard.
-3. Copy "shifr-nice_nano_v2-zmk.uf2" onto the root directory of the USB storage that appears.
-4. The controller should flash the firmware and automatically restart once flashing is complete.
+# Building
 
-
-# Bill of materials
+## Bill of materials
 | Value | Designator | Footprint | Quantity |
 |---|---|---|---|
 | Battery | BT1 | JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal | 1 |
@@ -33,3 +29,11 @@ Default layout is Colemak-DH.
 | 3.7V LiPo Battery | - | - | 1 |
 | M2 Screws with Nuts | - | - | 5 |
 | 3mm Spacers | - | - | 5 |
+
+## Firmware
+1. Download and unpack [misc/](https://github.com/CityRunner/shifr/tree/main/misc)firmware.zip.
+2. Double-tap the Reset button on the keyboard.
+3. Copy "shifr-nice_nano_v2-zmk.uf2" onto the root directory of the USB storage that appears.
+4. The controller should flash the firmware and automatically restart once flashing is complete.
+
+Source code available here: [Shifr ZMK](https://github.com/CityRunner/shifr-zmk)
